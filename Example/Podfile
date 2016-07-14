@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CocoaLumberjack-RemoteAccess_Example' do
+  pod 'CocoaLumberjack-RemoteAccess', :path => '../'
+
+  target 'CocoaLumberjack-RemoteAccess_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
