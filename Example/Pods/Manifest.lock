@@ -1,0 +1,29 @@
+PODS:
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack-RemoteAccess (0.1.0):
+    - CocoaLumberjack (= 2.3.0)
+    - GCDWebServer (~> 3.3.2)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - GCDWebServer (3.3.2):
+    - GCDWebServer/Core (= 3.3.2)
+  - GCDWebServer/Core (3.3.2)
+
+DEPENDENCIES:
+  - CocoaLumberjack-RemoteAccess (from `../`)
+
+EXTERNAL SOURCES:
+  CocoaLumberjack-RemoteAccess:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  CocoaLumberjack-RemoteAccess: 7692300f500206bbe9f5c6f75ddf4a27cff244ed
+  GCDWebServer: 2a375ec42839a41d7187d04e5b688d32fa5c4cd5
+
+COCOAPODS: 0.39.0

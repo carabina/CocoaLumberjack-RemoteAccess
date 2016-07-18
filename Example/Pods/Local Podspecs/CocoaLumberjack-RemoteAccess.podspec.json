@@ -1,0 +1,30 @@
+{
+  "name": "CocoaLumberjack-RemoteAccess",
+  "version": "0.1.0",
+  "summary": "A short description of CocoaLumberjack-RemoteAccess.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CocoaLumberjack-RemoteAccess",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tomcat2088": "tomcat1991@126.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CocoaLumberjack-RemoteAccess.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CocoaLumberjack-RemoteAccess/Classes/**/*",
+  "dependencies": {
+    "CocoaLumberjack": [
+      "= 2.3.0"
+    ],
+    "GCDWebServer": [
+      "~> 3.3.2"
+    ]
+  }
+}

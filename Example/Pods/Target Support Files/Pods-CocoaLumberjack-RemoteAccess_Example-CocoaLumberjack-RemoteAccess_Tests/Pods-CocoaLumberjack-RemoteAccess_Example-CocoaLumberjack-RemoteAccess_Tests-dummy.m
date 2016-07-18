@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CocoaLumberjack_RemoteAccess_Example_CocoaLumberjack_RemoteAccess_Tests : NSObject
+@end
+@implementation PodsDummy_Pods_CocoaLumberjack_RemoteAccess_Example_CocoaLumberjack_RemoteAccess_Tests
+@end

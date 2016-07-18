@@ -7,12 +7,21 @@
 //
 
 #import "DDAppDelegate.h"
+#import <DDRemoteAccess.h>
 
 @implementation DDAppDelegate
-
+#define ddLogLevel DDLogLevelInfo
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [DDRemoteAccess enableRemoteAccessWithCompleteBlock:^(BOOL isSuccess, NSString *visitUrl) {
+        DRLogError(@"HTTP GET %@",@"http://baidu,com");
+    }];
+    
+    DRLogError(@"%@",@"Error !!!");
+    DRLogWarn(@"%@",@"Warning !");
+    DRLogInfo(@"%@",@"Info here");
+    DRLogDBG(@"%@",@"debug infos ... ");
     return YES;
 }
 
